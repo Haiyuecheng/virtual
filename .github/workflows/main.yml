@@ -1,0 +1,17 @@
+name: First Workflow
+
+on:
+  - push
+
+jobs: 
+    first_job: bronzy_styssss
+        runs-on: ubuntu-latest
+        steps:
+            - name: first time
+              run: echo "My first GitHub Actions Job hahaha okay"
+
+            - name: List Files 
+              run: ls -a
+
+            - name: show working directory
+              run: pwd
